@@ -1,0 +1,20 @@
+{
+  "name": "mini-claude-learn",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Handwritten walkthrough of claude-code-from-scratch, one chapter at a time.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/cli.js",
+    "demo": "tsc && node dist/cli.js --demo 2",
+    "demo:1": "tsc && node dist/cli.js --demo 1",
+    "demo:2": "tsc && node dist/cli.js --demo 2",
+    "check:tools": "tsc && node dist/check-tools.js",
+    "check": "tsc && node dist/check-tools.js && node dist/check-framework.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}

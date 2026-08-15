@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.idea/
+.sandbox/
+.mini-session.json
+.mini-session.jsonl
+.mini-memory/
+.mini-history.json
+.env
+*.log
